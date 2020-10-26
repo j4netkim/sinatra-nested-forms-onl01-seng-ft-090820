@@ -4,7 +4,9 @@ class Ship
 
   SHIPS = []
 
-  
+  def self.all
+    SHIPS
+  end
 
   def self.clear
     SHIPS.clear
