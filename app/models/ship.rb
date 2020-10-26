@@ -1,6 +1,6 @@
 class Ship
 
-  attr_accessors :name, :type, :booty
+  attr_accessor :name, :type, :booty
 
   SHIPS = []
 
